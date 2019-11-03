@@ -3,17 +3,17 @@ pipeline {
    stages {
      stage('Build'){
           steps{
-            sh 'touch file1'
+            sh 'touch kranthi'
 }
 }
       stage('Test'){
           steps{
-            sh 'touch file2'
+            sh 'touch varma'
 }
 }
       stage('Deploy') {
          steps{
-           sh 'touch file3'
+           sh 'touch bujikonda'
 }   
 }
 }
